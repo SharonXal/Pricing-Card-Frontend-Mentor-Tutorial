@@ -8,7 +8,7 @@ html{
     box-sizing: inherit;
 }
 
-h2, h4, p{
+h2, h4, p{ 
     margin: 0;
 }
 
@@ -122,4 +122,11 @@ button:hover{
     list-style: none;
     font-size: 0.85rem;
     opacity: 0.55;
+}
+
+@media (max-width: 650px){
+    #bottom-left-section, #bottom-right-section, #card{
+        width: 100%;
+        height: auto;
+    }
 }
